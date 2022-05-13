@@ -8,6 +8,7 @@ import { DirectionComponent } from './components/direction/direction.component';
 import { ReferencesComponent } from './components/references/references.component';
 import { WrapComponent } from './components/wrap/wrap.component';
 import { FlexboxRoutingModule } from './flexbox-routing.module';
+import { FlowComponent } from './components/flow/flow.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { FlexboxRoutingModule } from './flexbox-routing.module';
     DirectionComponent,
     BasicComponent,
     ReferencesComponent,
-    WrapComponent
+    WrapComponent,
+    FlowComponent
   ],
   imports: [
     CommonModule,

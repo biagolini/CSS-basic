@@ -1,21 +1,23 @@
-div {
-  width: 250px;
-  margin: 10px;
+.nao-flex {
+  width: 400px;
+  margin: 5px;
   padding: 30px 15px;
   border: 2px solid rgb(200, 200, 200);
-  background-clip: content-box; /* Deixa a margem vazada */
-  background-color: #69f0ae; /* Coloração de todo fundo, mas como tem o buraco da margem vai ficar  */
+  background-clip: content-box;
+  background-color: #69f0ae;
 }
 
 .flex {
   display: flex;
+  width: 400px;
+  margin: 5px;
+  padding: 30px 15px;
+  border: 2px solid rgb(200, 200, 200);
+  background-clip: content-box;
+  background-color: #69f0ae;
 }
 
-.item {
-  background-color: #7b1fa2;
-  text-align: center;
-  padding: 5px;
+/* Specifications for example */
+.flexbox-item {
   margin: 5px;
-  width: 15px;
-  height: 15px;
 }

@@ -1,0 +1,32 @@
+.default {
+  flex-flow: row nowrap;
+}
+
+.wrap {
+  flex-flow: row wrap;
+}
+
+.wrap-reverse {
+  flex-flow: column wrap-reverse;
+  height: 400px;
+}
+
+.r-nowrap {
+  flex-flow: row-reverse nowrap;
+}
+
+.r-wrap {
+  flex-flow: row-reverse wrap;
+}
+
+.rr-wrap {
+  flex-flow: column wrap-reverse;
+  height: 400px;
+}
+
+/* Specifications for example */
+.flexbox-item {
+  width: 75px;
+  height: 75px;
+  margin: 5px;
+}

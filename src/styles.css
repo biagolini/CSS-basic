@@ -80,3 +80,46 @@ mat-toolbar {
   cursor: pointer;
   padding: 0px 0 !important;
 }
+
+/* Basic settings for Flexbox itens and containers colors*/
+.flexbox-header {
+  display: grid;
+  width: 100%;
+  padding-top: 25px;
+  border: 0px;
+}
+.flexbox-container {
+  display: flex;
+  width: 400px;
+  margin: 10px;
+  padding: 30px 15px;
+  border: 2px solid rgb(200, 200, 200);
+  background-clip: content-box;
+  background-color: #69f0ae;
+}
+.flexbox-item {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid transparent;
+}
+.cl-red {
+  background-color: red;
+}
+.cl-orange {
+  background-color: orange;
+}
+.cl-green {
+  background-color: green;
+}
+.cl-blue {
+  background-color: blue;
+}
+.cl-purpe {
+  background-color: purple;
+}
+.cl-pink {
+  background-color: pink;
+}
