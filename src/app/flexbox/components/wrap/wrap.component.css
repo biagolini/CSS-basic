@@ -1,0 +1,41 @@
+.flex-container {
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(200, 200, 200);
+}
+
+.item {
+  font-size: 24px;
+  text-align: center;
+  height: 50%;
+}
+
+.nowrap {
+  flex-wrap: nowrap;
+  line-height: 50px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+  line-height: 100px;
+}
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+  line-height: 100px;
+}
+
+.cl-red {
+  background-color: red;
+}
+.cl-green {
+  background-color: green;
+}
+.cl-blue {
+  background-color: blue;
+}
+.cl-purpe {
+  background-color: purple;
+}

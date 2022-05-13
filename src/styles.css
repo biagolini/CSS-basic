@@ -43,6 +43,11 @@ mat-toolbar {
   min-height: 93vh !important;
 }
 
+.referenc-container {
+  width: 100%;
+  background-color: gray;
+}
+
 .mat-expansion-panel {
   box-shadow: none !important;
 }

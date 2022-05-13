@@ -8,6 +8,7 @@ import { RelativeComponent } from './components/relative/relative.component';
 import { StaticComponent } from './components/static/static.component';
 import { StickyComponent } from './components/sticky/sticky.component';
 import { SharedModule } from '../shared/shared.module';
+import { ReferencesComponent } from './components/references/references.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SharedModule } from '../shared/shared.module';
     FixedComponent,
     RelativeComponent,
     StaticComponent,
-    StickyComponent
+    StickyComponent,
+    ReferencesComponent
   ],
   imports: [
     CommonModule,

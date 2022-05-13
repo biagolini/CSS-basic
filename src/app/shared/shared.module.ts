@@ -1,11 +1,11 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatIconModule } from '@angular/material/icon';
+import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatToolbarModule } from '@angular/material/toolbar';
+
 
 var x = [
   CommonModule,
@@ -14,12 +14,10 @@ var x = [
   MatButtonModule,
   MatSidenavModule,
   MatExpansionModule,
-
 ];
 
-
 @NgModule({
-  declarations: [],
+  declarations: [ ],
   imports: [x],
   exports:[x]
 })

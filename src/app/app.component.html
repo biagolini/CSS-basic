@@ -11,7 +11,7 @@
   <mat-sidenav-container autosize>
     <mat-sidenav #drawer mode="side" opened="true" position="end">
       <mat-accordion>
-        <mat-expansion-panel #panel hideToggle expanded="true">
+        <mat-expansion-panel #panel hideToggle expanded="false">
           <mat-expansion-panel-header>
             <div class="full-width navigation-button">
               <p>Position</p>
@@ -20,7 +20,6 @@
               }}</mat-icon>
             </div>
           </mat-expansion-panel-header>
-
           <div
             class="full-width subnavigation-button"
             routerLink="/position/absolute"
@@ -53,6 +52,52 @@
             routerLink="/position/sticky"
           >
             Sticky
+          </div>
+
+          <div
+            class="full-width subnavigation-button"
+            routerLink="/position/reference"
+          >
+            References
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+
+      <mat-accordion>
+        <mat-expansion-panel #panel hideToggle expanded="true">
+          <mat-expansion-panel-header>
+            <div class="full-width navigation-button">
+              <p>Flexbox</p>
+              <mat-icon>{{
+                panel.expanded ? "chevron_left" : "expand_more"
+              }}</mat-icon>
+            </div>
+          </mat-expansion-panel-header>
+
+          <div
+            class="full-width subnavigation-button"
+            routerLink="/flexbox/basic"
+          >
+            01 Básico de Display Flex
+          </div>
+
+          <div
+            class="full-width subnavigation-button"
+            routerLink="/flexbox/direction"
+          >
+            02 Directions
+          </div>
+          <div
+            class="full-width subnavigation-button"
+            routerLink="/flexbox/wrap"
+          >
+            03 Wrap
+          </div>
+          <div
+            class="full-width subnavigation-button"
+            routerLink="/flexbox/reference"
+          >
+            Reference
           </div>
         </mat-expansion-panel>
       </mat-accordion>
